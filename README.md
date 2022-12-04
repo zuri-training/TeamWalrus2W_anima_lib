@@ -13,7 +13,7 @@ This library is free to use with the only limitation being that users have to si
 
 ## Features
 
-- Light/dark mode 
+- Light mode 
 - Live previews
 - Fullscreen mode
 - Cross platform
