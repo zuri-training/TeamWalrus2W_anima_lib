@@ -5,7 +5,7 @@ Walib is a beginner friendly animation library for designers and developers
 
 
 # Introduction
-Walib library offers  a simple but eefective solution to desihners and developers in  form of ready made animation that users can save and download for their personal use. 
+Walib library offers  a simple but efective solution to designers and developers in  form of ready made animation that users can save and download for their personal use. 
 
 It allows users to perform basic to intermediate animations like fade,move up and down, move side ways,fade and bubble just to mention a few.
 
@@ -13,7 +13,7 @@ This library is free to use with the only limitation being that users have to si
 
 ## Features
 
-- Lightdark mode 
+- Light/dark mode 
 - Live previews
 - Fullscreen mode
 - Cross platform
@@ -37,7 +37,7 @@ This library is free to use with the only limitation being that users have to si
 
 #### Does everyone have full access to the library?
 
-You hve to sign up to access the entire library
+You have to sign up to access the entire library
 
 #### Do i have to download library to my personal computer?
 
