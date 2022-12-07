@@ -2,14 +2,16 @@
   "name": "new-task",
   "version": "1.0.0",
   "description": "I4G task",
-  "main": "Server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon/server.js",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parse": "^0.1.0",
     "color": "^4.2.3",
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
