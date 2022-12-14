@@ -8,61 +8,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
-        <nav >
-            <div class="menu_items" id="Logo">
-                <img src="#" alt="Logo">
-            </div>
-            <div class="menu_items">
-                <ul id="nav_menu">
-                    <li><a href="">Discover</a></li>
-                    <li><a href="">Design</a></li>
-                    <li><a href="">Code</a></li>
-                    
-                </ul>
-            </div>
-            <div class="menu_items" >
-                <input type="search" name="Search" id="Search" placeholder="I am looking for">
-                <a href="#" id="L_btn" >Login</a>
-                <a href="#">Signup</a>
-            </div>
-        </nav>
-        
-   </header>
+   
+    <header>
+      <div id="brand"><img src="Homepage\Images\Logo (2).svg" alt="Logo"></div>
+      <nav>
+        <ul>
+          <li><a href="/home">Discover</a></li>
+          <li><a href="/products">Design</a></li>
+          <li><a href="/about">Code</a></li>
+          <li><input type="search" name="search" id="search" placeholder="What are you looking for?"></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </div>
+    </header>
+  
    <main>
-        <div>
-            <h1>Light weight 
-                animation library  for your web design</h1>
+        <div id="hero">
+            <h1>
+                <font color="#1A535C">Light weight animation library </font>
+                <font color="#FF9F1C"> for your web design</font>
+                
+            </h1>
             <p>High-quality animations for starter designers & developers</p>
-            <button>Get started</button>
+            <button class="btn-large">Get started</button>
         </div>
         <div>
-            <img src="#" alt="animation">
+            <iframe src="https://embed.lottiefiles.com/animation/3684" width="400px" height="400px"></iframe>
+            
         </div>
    </main>
-   <section>
+   <section id="filler"> 
         <div>
-            <p>
+            <h4>
                 Specially curated  for ease and  convenience for better workflow
-            </p>
+            </h4>
             <p>
                 Super small, high quality, interactive animation file format that can be manipulated at runtime.
 
             </p>
         </div>
-        <div>
-            <div>
+        <div id="filler2">
+            <div class="text">
                 <h1>100%</h1>
                 <p>Lightweight, ready to use animation</p>
             </div>
-            <div>
+            <div class="text"> 
                 <h1>10%</h1>
                 <p>Better page load speed</p>
             </div>
         </div>
-        </div>
+    
    </section>
-   <section>
+   <section id="section2">
         <h4>
             Extensive curated animation Library 
         </h4>
@@ -75,7 +85,7 @@
    <section id="grid">
         <div class="grid_items">
             <div class="animation">
-                <img src="#" alt="animation">
+                <img src="https://lottiefiles.com/71719-walking-man" alt="animation">
             </div>
             <div>
                 <h6>
@@ -90,7 +100,7 @@
 
         <div class="grid_items">
             <div class="animation">
-                <img src="#" alt="animation">
+                <img src="https://lottiefiles.com/49376-3d-geometric-elements-loop-at-lucashegouet" alt="animation">
             </div>
             <div>
                 <h6>
@@ -104,7 +114,7 @@
         </div>
         <div class="grid_items">
             <div class="animation">
-                <img src="#" alt="animation">
+                <img src="https://lottiefiles.com/9911-geometric-abstract-loader" alt="animation">
             </div>
             <div>
                 <h6>
@@ -118,7 +128,7 @@
         </div>
         <div class="grid_items">
             <div class="animation">
-                <img src="#" alt="animation">
+                <img src="https://lottiefiles.com/71719-walking-man" alt="animation">
             </div>
             <div>
                 <h6>
@@ -132,7 +142,7 @@
         </div>
         <div class="grid_items">
             <div class="animation">
-                <img src="#" alt="animation">
+                <img src="https://lottiefiles.com/49376-3d-geometric-elements-loop-at-lucashegouet" alt="animation">
             </div>
             <div>
                 <h6>
@@ -146,7 +156,7 @@
         </div>
         <div class="grid_items">
             <div class="animation">
-                <img src="#" alt="animation">
+                <img src="https://lottiefiles.com/9911-geometric-abstract-loader" alt="animation">
             </div>
             <div>
                 <h6>
@@ -293,6 +303,7 @@
             </p>
         </div>
     </footer>
+    <script src="index.js"></script>
 
 </body>  
 </html>

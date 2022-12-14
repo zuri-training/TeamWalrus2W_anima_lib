@@ -1,67 +1,213 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #fff;
-    font-family: 'Times New Roman', Times, serif;
-    color: #000;
+
+body {
+  background-color: #F0F6F6;
+  color: #000;
+  font-family: "Poppins", sans-serif;
 }
-li{
-    text-decoration: none;
-    list-style: none;
+
+header a {
+  text-decoration: none;
+  font-size: 16px;
 }
-a{
-    text-decoration: none;
-    color: #000;
+
+header {
+  padding: 0 20px;
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  color:#000;
+  
 }
-header{
-    width: 1512px;
-    height: 80px;
-    background-color: blue;
+
+#brand {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
-nav{
-    padding: 20px 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
-}
-#nav_menu> li{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu_items{
-    background-color: #fff;
-    padding: 10px;
-}
-.menu_items >a{
-    margin-left: 20px;
-    background-color: aqua;
-    padding: 8px 16px;
-    border-radius: 8px x;
-    color: white;
-}
-#L_btn{
-    background-color: #fff;
-    color: aqua;
-    border: 1px solid aqua;
-}
-#search{
-    padding: 8px;
+#search {
+    font-size:12px;
+    padding:8px 12px;
+    cursor:pointer;
+    border: 1px solid #4ECDC4;
     border-radius: 8px;
-    margin: 8px;
-    font-size: 12px;
+}
+
+#brand a {
+  color:#09c372;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: #000;
+}
+
+ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#login,
+#signup {
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+#login {
+  border: 1px solid #4ECDC4;
+}
+
+#signup {
+  border: none;
+  background-color: #4ECDC4;
+}
+
+#signup a {
+  color: #fff;
+}
+
+#login a {
+  color: #4ECDC4;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(22, 21, 21);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+/*media queries*/
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
+
+button{
+    color: rgb(245, 239, 239);
+    background-color: #4ECDC4;
+    border-radius: 8px;
+}
+.btn-large{
+    padding:16px 32px;
+    font-size: 18px;
+    border: none;
 }
 /*Main*/
 main{
     max-width: 1512px;
-    height: 706px;
-    margin-top: 8px;
-    background-color: beige;
+    height: 500px;
+    padding: 4px 80px 4px 80px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 16px;
+    padding-top: 16px;
+    align-items: center;
+    color: #121212;
+    margin-top: 4px;
+}
+#hero >h1,p,button{
+    margin-top: 16px;
 }
 
+#filler{
+    background-color:#FFF4E6;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 16px 40px;
+    margin: 0 40px;
+}
+#filler2{
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 16px;
+}
+#text>h1{
+    font-size:80px
+}
+#section2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#grid{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 16px;
+}
+.animation>img{
+    width: 250px;
+    height: 250px;
+    border: none;
+}
