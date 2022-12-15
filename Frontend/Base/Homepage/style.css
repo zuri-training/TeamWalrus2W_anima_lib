@@ -152,21 +152,15 @@ ul li:hover {
     display: block;
   }
 }
-
-button{
-    color: rgb(245, 239, 239);
-    background-color: #4ECDC4;
-    border-radius: 8px;
-    border: none;
-}
-button.btn{
-    padding:8px 16px;
-    font-size: 18px;
-    border: none;
-}
 #Effects{
-  background-color: #1A535C;
+  background-color:#1A535C;
+  margin:16px 80px;
 }
+#section2>img{
+  width: 300px;
+  height: 300px;
+}
+
 #section5{
     display: flex;
     flex-direction: column;
