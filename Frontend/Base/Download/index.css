@@ -211,7 +211,7 @@ button{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 14px;
+  padding: 14px ;
 }
 .img-grd{
   width: 250px;
