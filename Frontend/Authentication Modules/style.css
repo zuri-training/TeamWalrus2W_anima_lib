@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(22,69,77);
+}
+
+/* this is the flex container for the full html page */
+.flex1{
+    display: flex;
+    justify-content: center;
+    /* width: 200px; */
+}
+
+.logo{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Carter One', cursive;
+}
+
+/* this is the styling for the first section of the signin and login page */
+.container1{
+    color: white;
+    padding: 50px;
+    padding-left: 300px;
+    width: 70%;
+}
+
+.container1 h1{
+margin-top: 50px;
+}
+
+/* this is the styling for the input */
+.inputline{
+    border-color: rgb(78,205,196);
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+/* this is the styling for the second input boxes (email and password) */
+.inputline2{
+    border-color: rgb(78,205,196);
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 50%;
+}
+
+/* this is the styling for the onboarding text */
+.onboardingtext{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.onboard{
+    margin-top: 50px;
+}
+.onboardingtext2{
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:25px;
+}
+
+/* this is the styling for the other sign in options */
+.signup-div{
+    display: flex;
+}
+
+/* this is the styling for all the links */
+.links{
+    text-decoration: none;
+    
+}
+
+/* customized style for signup with google option */
+.signup{
+    background-color:rgb(67,133,245);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin: 15px 0px 15px 0px;
+    border: none;
+    color: white;
+    margin-right: 30px;
+}
+/* this is the styling for the div housing the signup page */
+.signup1{
+    height: 100vh;
+    width: 100vh;
+    background-color: white;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* this is the styling for all the icons */
+.icons{
+    background-color: rgb(209,209,208);
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin: 15px 5px 15px 5px;
+}
+
+/* this is the styling for the second div in the div containing the sign in and log in page */
+.center{
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    padding-right: 30px;
+}
+
+/* this is the styling for the div housing the firstname and lastname input field */
+.input1{
+    padding-top: 15px;
+    display: flex;
+    padding-right: 10px;
+}
+
+.input2{
+    margin-right: 20px;
+}
+/* this is the styling for the div containing the email and password field */
+.input{
+    padding-top:15px;
+    
+}
+
+/* customized style for the create button after successful signup */
+.button{
+    padding: 8px 160px 8px 200px;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(78,205,196);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    justify-items: center;
+}
+
+/* container for the create button */
+.buttoncontainer{
+    margin-bottom: 10px;
+    
+}
+
+/* customized styling for the text under the button */
+.termstext{
+    color: rgb(209,209,208);
+}
