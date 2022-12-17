@@ -21,7 +21,7 @@ This library is free to use with the only limitation being that users have to si
 - Fully responsive
 
 
-## Tech Stack
+  ## Tech Stack
 
 **Client:** Html, Css, Javascript
 
